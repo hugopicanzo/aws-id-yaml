@@ -1,0 +1,6 @@
+- name: Proyect Validation
+  hosts: localhost
+  tasks:
+    - name: Hello World
+      debug:
+        msg: "Si ves esto, el proyecto cargó correctamente."
